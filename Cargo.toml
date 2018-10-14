@@ -1,0 +1,10 @@
+[package]
+name = "sloppytoken"
+version = "0.1.0"
+authors = ["Alex Newman <posix4e@gmail.com>"]
+
+[dependencies]
+
+actix-web = "*"
+time = "*"
+challenge-bypass-ristretto = { git="https://github.com/evq/challenge-bypass-ristretto" }
